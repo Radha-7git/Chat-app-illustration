@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat app illustration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="font-display flex items-center justify-center min-h-screen p-6 bg-l-grayish-violet-app-bg">
+    <div class="absolute bg-gradient-to-b from-grad-light via-grad-dark to-grad-dark w-44 lg:w-[300px] xl:w-[400px] rounded-br-full h-[500px] xl:h-[650px] -z-50 left-0 top-0"></div>
+    <div class="w-full max-w-[900px] grid grid-cols-1 md:grid-cols-2">
+      <div class="bg-white max-w-[300px] shadow-2xl p-2.5 rounded-3xl relative w-full mx-auto mt-12 md:mt-0 md:mx-0">
+        <div class="absolute w-36 h-8 bg-white left-1/2 -translate-x-1/2 rounded-b-xl top-0"></div>
+        <div class="flex items-center justify-between bg-gradient-to-r from-grad-dark  to-grad-light p-4 rounded-t-3xl pt-8">
+          <div class="flex items-center gap-2 ">
+            <i class="fa-solid fa-chevron-left text-white"></i>
+            <img class="size-8 p-.5 rounded-full border-white border-2 " src="./images/avatar.jpg" alt="">
+            <div class="text-white">
+              <h3 class="text-sm font-bold opacity-95">Samuel Green</h3>
+              <p class="text-xs font-extralight opacity-70">Available to walk</p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+          </div>
+        </div>
+        <div class="p-2 bg-l-grayish-violet-app-bg rounded-b-3xl">
+          <div class="flex flex-col gap-2 mt-2">
+            <p class="bg-msg-bg p-1.5 text-msgtxt w-36 text-[0.6rem] rounded-r-lg rounded-tl-lg">That sounds great. I'd be happy to discuss more.</p>
+            <p class="bg-msg-bg p-1.5 text-msgtxt w-36 text-[0.6rem] rounded-r-lg rounded-tl-lg">Could you send over some pictures of your dog, please?</p>
+          </div>
+          <div class="mt-6">
+            <div class="flex items-end justify-end gap-2">
+              <img class="w-10 rounded-lg" src="./images/dog-image-1.jpg" alt="">
+              <img class="w-10 rounded-lg" src="./images/dog-image-2.jpg" alt="">
+              <img class="w-10 rounded-lg" src="./images/dog-image-3.jpg" alt="">
+            </div>
+            <div class="flex items-end justify-end flex-col mt-3 gap-2">
+              <p class="p-1.5 bg-white text-[0.6rem] rounded-l-lg rounded-tr-lg w-36">Here are few pictures. She's a happy girl!</p>
+              <p class="p-1.5 bg-white text-[0.6rem] rounded-l-lg rounded-tr-lg w-36">Can you make it</p>
+            </div>
+            <div class="mt-4">
+              <p class="bg-msg-bg p-1.5 text-msgtxt w-36 text-[0.6rem] rounded-r-xl rounded-tl-xl">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            </div>
+            <div class="flex flex-col gap-2 mt-4">
+              <div class="bg-gradient-to-r to-grad-dark w-52 from-grad-light p-2 flex items-center justify-between rounded-r-lg rounded-tl-lg">
+                <div class="flex items-center gap-2">
+                  <div class="size-4 rounded-full border-2 border-white"></div>
+                  <p class="opacity-85 text-white text-xs">30 minute walk</p>
+                </div>
+                <p class="font-bold text-sm text-white">$29</p>
+              </div>
+              <div class="bg-gradient-to-r to-grad-dark w-52 from-grad-light p-2 flex items-center justify-between rounded-r-lg rounded-tl-lg">
+                <div class="flex items-center gap-2">
+                  <div class="size-4 rounded-full border-2 border-white"></div>
+                  <p class="opacity-85 text-white text-xs">30 minute walk</p>
+                </div>
+                <p class="font-bold text-sm text-white">$29</p>
+              </div>
+            </div>
+            <div class="mt-4 mb-2">
+              <div class="relative">
+                <input class="w-full p-3 bg-white rounded-full text-xs focus:outline-none text-grad-dark" type="text" placeholder="Type something">
+                <div>
+                  <i class="fa-solid fa-chevron-right cursor-pointer text-white bg-v-dark-de-violet-btn-bg py-2 px-4 rounded-full absolute top-1/2 right-2 -translate-y-1/2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-12 md:mt-0 p-2 text-center flex flex-col items-center justify-center h-full">
+        <div class=" relative md:p-4 md:py-12 md:rounded-2xl">
+          <h1 class="font-bold text-3xl lg:text-5xl text-v-dark-de-violet-btn-bg lg:text-left">Simple booking</h1>
+          <p class="text-sm font-medium text-gray-400 mt-4 lg:text-left">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
