@@ -13,10 +13,10 @@ A **static website** featuring a beautifully designed **chat application UI**, b
 ##  Screenshots  
 
 ###  Desktop View  
-![Desktop Chat UI](./desktop-chat.png)  
+![Desktop Chat UI](./screesnshot/desktop-chat.png)  
 
 ###  Mobile View   
- 
+![Mobile Chat UI](./screenshot/mobile-chat.png)   
 
 ##  Tech Stack  
 
